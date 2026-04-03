@@ -63,7 +63,7 @@ resource aws_vpc_security_group_egress_rule allow_all_traffic {
 resource aws_instance my_instance {
 
 	count = 3
-	ami = "ami-0d76b909de1a0595d" # OS AMI ID
+	ami = "ami-05d2d839d4f73aafb" # OS AMI ID
 
 	instance_type = "t3.micro" # Instance Type
 
